@@ -9,17 +9,29 @@
         android:id="@+id/itemname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
         android:text="Item"
         android:textColor="#F0070000"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:text="price" />
+        android:text="price"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="10dp"
+        android:text="Add to Cart"
+        android:textSize="13sp"
+        app:buttonTint="@color/colorPrimary"/>
 </LinearLayout>
